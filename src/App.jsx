@@ -1,4 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import logo1 from "./assets/logo1.png";
+import logo2 from "./assets/logo2.png";
 
 /**
  * Moododoro v2 — Auth + Pomodoro + Mood-to-Music Recommender
@@ -388,7 +390,7 @@ function MainApp({ session, onLogout }) {
     const mm = pad(Math.floor(secondsLeft / 60));
     const ss = pad(secondsLeft % 60);
     const icon = phase === "work" ? "🧠" : phase === "short" ? "☕" : "🌿";
-    document.title = `${icon} ${mm}:${ss} • Moododoro`;
+    document.title = `${icon} ${mm}:${ss} • moododoro ${logo2}`;
   }, [secondsLeft, phase]);
 
   useEffect(() => {
@@ -456,7 +458,7 @@ function MainApp({ session, onLogout }) {
         <div className="bg-slate-900/60 backdrop-blur rounded-2xl shadow-xl p-6 border border-slate-800">
           <header className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-semibold tracking-tight">Moododoro ⏱️</h1>
+              <h1 className="text-2xl font-semibold tracking-tight">moododoro ${logo1}</h1>
               <div className="text-sm text-slate-400">
                 Hi, <span className="text-slate-200 font-medium">{session?.name || "Guest"}</span>
               </div>
@@ -581,16 +583,11 @@ function MainApp({ session, onLogout }) {
             <div className="mt-2 text-sm text-slate-300">{currentPlaylist?.title}</div>
           </div>
 
-          <ul className="mt-6 text-xs text-slate-400 list-disc pl-5 space-y-1">
-            <li>Recommendation updates instantly as you move the sliders.</li>
-            <li>At session transitions, a gentle beep plays. Consider doing a quick mood check before each focus block.</li>
-            <li>No API keys required. Swap playlist URLs with your own favs in <code>PLAYLISTS</code>.</li>
-          </ul>
         </div>
       </div>
 
       <div className="max-w-5xl mx-auto mt-8 text-center text-xs text-slate-500">
-        Built in a day · Stretch: cloud sync, stats dashboard, real auth.
+        moododoro ${logo1} ${logo2}
       </div>
     </div>
   );
