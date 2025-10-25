@@ -37,21 +37,28 @@ function clearSession() { localStorage.removeItem(SESSION_KEY); }
 /* ---------------------- Playlists (no auth) ---------------------- */
 const PLAYLISTS = {
   energize: [
-    { title: "Upbeat Focus (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX8Uebhn9wzrS" },
+    { title: "Sunny Day (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX1BzILRveYHb?utm_source=generator" },
     { title: "Energetic Studying Mix (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1EIgh7xi8nPIv9" },
+    { title: "Upbeat Studying (Spotify Tasha Drolet)", url: "https://open.spotify.com/embed/playlist/6qQU5fK0BRXxIuFeKWYgRX?utm_source=generator" },
+    { title: "Intense locked in motiational studying (Spotify)", url: "https://open.spotify.com/embed/playlist/2UKa44eOG5ZDiRoremIkeE?utm_source=generator" },
   ],
   calm_down: [
     { title: "Lo-Fi Beats (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DXd9rSDyQguIk" },
     { title: "Peaceful Piano (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" },
-    { title: "Ambient Chill (YouTube)", url: "https://www.youtube.com/embed/videoseries?list=PLzCxunOM5WFI1jFzG8G5U6xEw9r2q9A6s" },
+    { title: "Study, chill, vibe, r&b (Spotify)", url: "https://open.spotify.com/embed/playlist/00vJgCqGYCVGjC3NJO7Jn0?utm_source=generator" },
+    { title: "Ambient Relaxation (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3Ogo9pFvBkY" },
   ],
   uplift: [
     { title: "Feel-Good Indie (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX2sUQwD7tbmL" },
     { title: "Happy Hits! (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DXdPec7aLTmlC" },
+    { title: "Good Vibes (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DWYBO1MoTDhZI?utm_source=generator" },
+    { title: "Uplifting Music 2025 (Spotify)", url: "https://open.spotify.com/embed/playlist/3a8ssl2IKbhSmEzzIPYvbC?utm_source=generator" },
   ],
   steady_focus: [
     { title: "Deep Focus (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX8Uebhn9wzrS" },
     { title: "Coding Mode (Spotify)", url: "https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" },
+    { title: "Focus Flow (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DWZZbwlv3Vmtr?utm_source=generator" },
+    { title: "Deep Focus (Spotify)", url: "https://open.spotihttps://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ?utm_source=generatorfy.com/embed/playlist/37i9dQZF1DX5Ejj0EkURtP" },
   ],
 };
 
