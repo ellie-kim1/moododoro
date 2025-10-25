@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import logo1 from "./assets/logo1.png";
-import logo2 from "./assets/logo2.png";
+import logo1 from ".public/assets/logo1.png";
+import logo2 from ".public/assets/logo2.png";
 
 /**
  * Moododoro v2 — Auth + Pomodoro + Mood-to-Music Recommender
