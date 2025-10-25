@@ -8,12 +8,17 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 /* === Spotify OAuth (via your backend) === */
 const SPOTIFY_CLIENT_ID = "59a1a68551ab4e0aa819450939ac3219";
-const SPOTIFY_REDIRECT_URI = "https://moododoro-jyhdiz3wv-ellie-kim1s-projects.vercel.app/callback"; // CHANGE
+const SPOTIFY_REDIRECT_URI = "https://moododoro-jyhdiz3wv-ellie-kim1s-projects.vercel.app/callback"; // CHA
 const SPOTIFY_SCOPES = ["user-read-private", "playlist-read-private"]; // server must add streaming scopes
 
-const BACKEND_URL = "http://127.0.0.1:5174";
+/*const BACKEND_URL = "http://127.0.0.1:5174";
 function connectSpotify() {
   window.location.href = `${BACKEND_URL}/login`;
+}
+*/
+
+function connectSpotify() {
+  window.location.href = "/api/login"; // same-origin call to Vercel function
 }
 
 /* ---------------------------- Utility ---------------------------- */
