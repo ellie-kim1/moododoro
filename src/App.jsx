@@ -35,6 +35,7 @@ function saveSession(session) { localStorage.setItem(SESSION_KEY, JSON.stringify
 function clearSession() { localStorage.removeItem(SESSION_KEY); }
 
 /* ---------------------- Playlists (no auth) ---------------------- */
+/* ---------------------- Playlists (no auth) ---------------------- */
 const PLAYLISTS = {
   energize: [
     { title: "Sunny Day (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX1BzILRveYHb?utm_source=generator" },
