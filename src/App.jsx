@@ -459,7 +459,12 @@ function MainApp({ session, onLogout }) {
         <div className="bg-slate-900/60 backdrop-blur rounded-2xl shadow-xl p-6 border border-slate-800">
           <header className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-semibold tracking-tight">Moododoro ⏱️</h1>
+                    <div className="flex flex-col items-center justify-center space-y-3">
+      <img
+        src="/white2.png"
+        alt="Moododoro logo"
+        className="w-40 h-40 object-contain"
+      /></div>
               <div className="text-sm text-slate-400">
                 Hi, <span className="text-slate-200 font-medium">{session?.name || "Guest"}</span>
               </div>
