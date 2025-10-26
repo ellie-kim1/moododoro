@@ -592,14 +592,17 @@ function MainApp({ session, onLogout }) {
           <ul className="mt-6 text-xs text-slate-400 list-disc pl-5 space-y-1">
             <li>Recommendation updates instantly as you move the sliders.</li>
             <li>At session transitions, a gentle beep plays. Consider doing a quick mood check before each focus block.</li>
-            <li>No API keys required. Swap playlist URLs with your own favs in <code>PLAYLISTS</code>.</li>
           </ul>
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto mt-8 text-center text-xs text-slate-500">
-        Built in a day · Stretch: cloud sync, stats dashboard, real auth.
-      </div>
+        
+      <div className="flex flex-col items-center justify-center space-y-3 mt-6">
+      <img
+        src="/white3.png"
+        alt="Moododoro logo"
+        className="w-50 h-30 object-contain"
+      /></div>
     </div>
   );
 }
