@@ -60,7 +60,7 @@ const PLAYLISTS = {
     { title: "Uplifting Music 2025 (Spotify)", url: "https://open.spotify.com/embed/playlist/3a8ssl2IKbhSmEzzIPYvbC?utm_source=generator" },
   ],
   steady_focus: [
-    { title: "Deep Focus (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DX8Uebhn9wzrS" },
+    { title: "Deep Focus (Spotify)", url: "https://open.spotihttps://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ?utm_source=generatorfy.com/embed/playlist/37i9dQZF1DX5Ejj0EkURtP" },
     { title: "Coding Mode (Spotify)", url: "https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" },
     { title: "Focus Flow (Spotify)", url: "https://open.spotify.com/embed/playlist/37i9dQZF1DWZZbwlv3Vmtr?utm_source=generator" },
     { title: "Deep Focus (Spotify)", url: "https://open.spotihttps://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ?utm_source=generatorfy.com/embed/playlist/37i9dQZF1DX5Ejj0EkURtP" },
