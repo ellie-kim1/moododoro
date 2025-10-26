@@ -133,7 +133,13 @@ function AuthGate({ onAuthed }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100 p-6 flex items-center justify-center">
       <div className="w-full max-w-md bg-slate-900/60 backdrop-blur rounded-2xl shadow-xl p-6 border border-slate-800">
-        <h1 className="text-2xl font-semibold tracking-tight text-center">Moododoro</h1>
+          
+      <div className="flex flex-col items-center justify-center space-y-3 mt-6">
+      <img
+        src="/white3.png"
+        alt="Moododoro logo"
+        className="w-50 h-30 object-contain"
+      /></div>
         <p className="text-sm text-slate-400 text-center mt-1">Focus timer + mood-aware music</p>
 
         <div className="mt-6 grid grid-cols-3 gap-2">
@@ -189,8 +195,6 @@ function AuthGate({ onAuthed }) {
             </button>
           </div>
         )}
-
-        <p className="text-[11px] text-slate-500 mt-6 text-center">Demo auth only • Data stored locally in your browser</p>
       </div>
     </div>
   );
@@ -543,7 +547,7 @@ function MainApp({ session, onLogout }) {
         {/* Mood + Music Card */}
         <div className="bg-slate-900/60 backdrop-blur rounded-2xl shadow-xl p-6 border border-slate-800">
           <h2 className="text-xl font-semibold tracking-tight">Personalized Mood-to-Music 🎧</h2>
-          <p className="text-sm text-slate-400 mt-1">Tell me how you feel; I’ll steer the vibe toward optimal study focus.</p>
+          <p className="text-sm text-slate-400 mt-1">Tell me how you feel!</p>
 
           {/* Mood sliders */}
           <div className="mt-6 grid gap-6">
